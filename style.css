@@ -143,7 +143,27 @@ header .container {
     display: block;
     margin: 0 auto 10px;
 }
+/*here is the whatapp.jpg */
+img[src="whatapp.jpg"] {
+    max-width: 15vw; /* Adjust as needed */
+    height: auto;
+}
 
+/* Make text responsive */
+div[style*="position: absolute;"] {
+    font-size: 4vw; /* Scale font size with viewport width */
+    width: 90%; /* Scale width with viewport width */
+}
+
+div[style*="pre"] {
+    font-size: 2.5vw;
+}
+
+/* Make outer div responsive */
+div[style*="display: flex;"] {
+    width: 100%;
+}
+/*ends here*/
 .customer-segments {
     display: flex;
     justify-content: space-around;
